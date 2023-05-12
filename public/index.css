@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.headings{
+    display: flex;
+    justify-content: space-around;
+}
+
+.headings a{
+    background-color: green;
+    text-decoration: none;
+    padding: 1.5em 1em;
+    color: white;
+    border-radius: 10px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    /* border: 2px solid red; */
+}
+
+.gallery img{
+    width: 25em;
+    height: 15em;
+}
